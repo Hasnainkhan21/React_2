@@ -13,7 +13,7 @@ function Conditional() {
 
   let content;
   if (isLoggedIn) {
-   
+    
     content = (
       <button
         className="px-6 py-2 bg-black text-amber-50 rounded-lg hover:bg-amber-500 transition-colors duration-300"
