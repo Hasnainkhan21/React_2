@@ -4,6 +4,7 @@ import './App.css'
 import Counter from './Counter.jsx'
 import Conditional from './Conditional.jsx';
 import Form from './Form.jsx';
+import Parent from './CallBack.jsx';
 function App() {
 
 
@@ -12,7 +13,8 @@ function App() {
   {/* <Counter />
   <Hook /> */}
   {/* <Conditional /> */}
-  <Form />
+  {/* <Form /> */}
+  <Parent />
     </>
   )
 }
